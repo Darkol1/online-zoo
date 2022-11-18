@@ -495,10 +495,144 @@ input::-webkit-inner-spin-button {
     background-color: transparent;
     top: 620px;
     left: 460px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
 }
 
-.form_two{
+.dollar{
+    position: relative;
+    top: 500px;
+    left: 710px;
+    width: 10px;
+    height: 20px;
+}
+
+.form__2{
+    display: flex;
+    position: absolute;
+    top:680px;
+    left:490px;
+}
+
+.radio__input__2{
+    -webkit-appearance: none;
+    appearance: none;
     
 }
+
+.radio__label__2{
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #333B41;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 58px;
+    height: 22px;
+    box-sizing: border-box;
+    
+}
+
+.radio__label__2:before{
+    content: "";
+    display: block;
+    width: 16px;
+    height: 16px;
+    color:transparent;
+    border: 1px solid #FE9013;
+    position: absolute;
+    top: 28px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+
+.radio__2{
+    position: relative;
+    height: 80;
+    width: auto;
+    box-sizing: border-box;
+    margin-right: 38px;
+    padding-top: 24px;
+    
+}
+
+.radio__label__2:after{
+    content: "";
+    display: block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color:#FE9013;
+    position: absolute;
+    top:30px;
+    left: 2px;
+    z-index: 2;
+    opacity: 0;
+}
+
+.radio__input__2:checked + .radio__label__2:before{
+   border-color:#FE9013;
+}
+
+.radio__input__2:checked + .radio__label__2:after{
+    opacity: 1;
+}
+
+.feed_a_friend_now, .donate_for_volunteers{
+    width: 298px;
+    height: 54px;
+    background: linear-gradient(#F9804B, #FE9013);
+    color:#ffffff;
+    font-weight: normal;
+    font-size: 16px;
+    border:none;
+}
+
+.feed_a_friend_now:hover, .donate_for_volunteers:hover{
+    background: #E47209;
+}
+
+.feed_a_friend_now:active, .donate_for_volunteers:active{
+    background: #4B9200;
+}
+
+.feed_a_friend_now{
+    position: relative;
+    top: 620px;
+    left: 432px;
+    border-radius: 25px;
+}
+
+.last_p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #333B41;
+    position: absolute;
+    top:860px;
+    left: 454px;
+}
+
+.donate_for_volunteers{
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
 
 
