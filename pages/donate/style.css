@@ -504,7 +504,7 @@ input::-webkit-inner-spin-button {
 
 .dollar{
     position: relative;
-    top: 500px;
+    top: 490px;
     left: 710px;
     width: 10px;
     height: 20px;
@@ -625,14 +625,3 @@ input::-webkit-inner-spin-button {
 .donate_for_volunteers{
     border-radius: 5px;
 }
-
-
-
-
-
-
-
-
-
-
-
